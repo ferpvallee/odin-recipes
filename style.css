@@ -1,18 +1,169 @@
-h1{
-    text-align: center;
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: url("background.jpg");
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
 }
 
-.img-div{
-    text-align: center;
-}
-
-p{
-    color: gray;
-    font-size: larger;
-    font-weight: bold;
+.header{
+    flex: 0 1 auto;
+    display: flex;
+    flex-wrap: nowrap;
+    background-color:rgb(255, 255, 255) ;
+    opacity: 0.65;
+    width: 100%;
+    height: 2.4rem;
+    margin-bottom: 4rem;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    
+    
     
 }
 
+.intro-text{
+   flex-grow: 1;
+   text-align: center;
+   margin-right: 10rem;
+    
+}
+
+.logo{
+    background-color: black;
+    left: 0;
+    opacity: 0.85;
+    width: 9rem;
+    height: 1.2rem;
+    color: white;
+    padding: 0.5rem 0.3rem;
+    border-radius: 20px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    
+    
+   
+}
+
+.name{
+    position: absolute;
+    margin-left: 26px;
+}
+
+
+.main{
+    flex: 1 1 auto;
+    
+    width: 100%;
+    height: 30rem;
+    display: flex;
+    justify-content: space-between;
+}
+
 h2{
-    text-decoration: underline;
+    margin-bottom: 3.5rem;
+    text-align: center;
+}
+
+.top li{
+    margin-left: 2.5rem;
+    margin-bottom: 4.5rem;
+}
+
+.top{
+    border-radius: 20px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    color: white;
+    background-color: black;
+    opacity: 0.7;
+    width: 15rem;
+    height: 22rem;
+    padding-top: 1.5rem;
+    
+}
+
+.card{
+    padding-top: 1.5rem;
+    color: white;
+    border-radius: 20px;
+    background-color: black;
+    opacity: 0.7;
+    width: 30rem;
+    height: 30rem;
+}
+
+.card li{
+    margin-left: 5rem;
+    font-size: larger;
+    margin-bottom: 2.5rem;
+}
+
+.card p{
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.img{
+    width: 30rem;
+    height: 30rem;
+    
+}
+
+
+.img-cooking{
+    border-radius: 20px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    width: 30rem;
+    height: 504px;
+    opacity: 0.85;
+}
+
+.footer{
+    bottom: 0;
+}
+
+.bottom{
+    color: white;
+    flex: 1 1 auto;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 15rem;
+    background-color:black ;
+    opacity: 0.75;
+    bottom: 0;
+    
+}
+
+.bottom-content{
+    width: 25rem;
+    height: 200px;
+    text-align: center;
+    padding-top: 2rem;
+
+}
+
+.social-icons{
+    display: flex;
+    justify-content: space-evenly;
+    height: 5rem;
+    width: 13rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+    
+}
+
+hr{
+    color: white;
+    margin-bottom: 3.3rem;
+}
+
+.footer-text{
+    font-size: small;
 }
