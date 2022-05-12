@@ -98,8 +98,15 @@ h2{
 
 .card li{
     margin-left: 5rem;
+    margin-right: 2rem;
     font-size: larger;
     margin-bottom: 2.5rem;
+}
+
+.recipes li{
+    margin-left: 5rem;
+    font-size: medium;
+    margin-bottom: 0.5rem;
 }
 
 .card p{
@@ -118,6 +125,15 @@ h2{
     border-radius: 20px;
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
+    width: 30rem;
+    height: 504px;
+    opacity: 0.85;
+}
+
+.img-recipes{
+    border-radius: 20px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
     width: 30rem;
     height: 504px;
     opacity: 0.85;
